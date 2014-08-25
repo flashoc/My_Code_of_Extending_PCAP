@@ -1,0 +1,16 @@
+#ifndef ANDROID_MY_ENUM_H
+#define ANDROID_MY_ENUM_H   
+
+namespace android {
+
+	enum captureTypes {
+		GETDATAPACKETTOIP = 0,
+		GETDAtAPACKETFROMIP,
+		GETDAtAPACKETWITHPORTNUMBER,
+		GETDAtAPACKETWITHTCPPROTOCOL,
+		GETDAtAPACKETWITHUDPPROTOCOL
+	};
+
+}; // namespace android
+
+#endif /* ANDROID_MY_ENUM_H */
